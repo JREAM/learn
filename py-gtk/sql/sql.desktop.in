@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Sql
+_Comment=Sql application
+Categories=GNOME;Utility;
+Exec=sql
+Icon=sql
+Terminal=false
+Type=Application
