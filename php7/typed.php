@@ -1,5 +1,12 @@
 <?php
 
+# Force Type Hinting and Return Types (Doesn't seem to throw error if I change anything)
+declare(strict_types = 1);
+
+# These aliases are removed:
+# interger is now always: int
+# boolean is now always:  bool
+
 function foo(): string {
     return 'hello';
 }
@@ -7,7 +14,7 @@ function foo(): string {
 echo foo();
 
 // dont use 'object' non scalar
-function bar(string $name, int $age, bool $alive, float $money): stdClass {
+function bar($name, int $age, bool $alive, float $money): stdClass {
     $person = new \stdClass();
     $person->name = $name;
     $person->age = $age;
