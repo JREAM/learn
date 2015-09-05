@@ -1,7 +1,7 @@
 <?php
-
-# Force Type Hinting and Return Types (Doesn't seem to throw error if I change anything)
-declare(strict_types = 1);
+# Force Type Hinting and Return Types
+declare(strict_types = 1); # Seems to not do anything
+error_reporting(E_ALL | E_STRICT); # This is required to enforce the below
 
 # These aliases are removed:
 # interger is now always: int
