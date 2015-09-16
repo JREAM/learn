@@ -1,0 +1,16 @@
+{
+    "name": "practice",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "^2.1.4",
+        "bootstrap": "^3.3",
+        "coffee-script": "^1.7",
+        "coffeestack": "^0.7",
+        "electron-compile": "^0.9",
+        "jasmine": "^2.3",
+        "mkdirp": "^0.3",
+        "fs-plus": "^2.3",
+        "fstream": "^0.1"
+    }
+}
+
