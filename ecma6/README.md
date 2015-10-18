@@ -1,10 +1,9 @@
-# Enable in Chrome
+## ECMA6
+The new iteration of JavaScript that is long overdue.
 
-- Go to URL: https://chrome.google.com/webstore/detail/scratch-js/alploljligeomonipppgaahpkenfnfkn
-- Enable
-- Restart Chrome
+Use Chrome version 46
 
-
-
-# Overview
-Visit: github.com/lukehoban/es6features
+## Resources
+- https://github.com/lukehoban/es6features
+- https://github.com/JustinDrake/node-es6-examples
+- https://code.tutsplus.com/articles/use-ecmascript-6-today--net-31582
