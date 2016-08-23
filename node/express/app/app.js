@@ -11,6 +11,8 @@ var users = require('./routes/users');
 
 
 var app = express();
+var app = module.exports.app = exports.app = express();
+app.use(require('connect-livereload')());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
