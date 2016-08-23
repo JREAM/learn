@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= Users
+  p Login #{title}
+
+  div.row
+    div.col-md-4
+      form(name="user-login", action="/users/login", method="post")
+        div.form-group
+          input(type="text", name="user", class="form-control")
+        div.form-group
+          input(type="password", name="pass" class="form-control")
+        div.form-group
+          input(type="submit", value="login" class="form-control btn-primary")
